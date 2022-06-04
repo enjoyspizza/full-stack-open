@@ -1,35 +1,79 @@
-const Hello = (props) => {
-  const now = new Date()
+const Part1 = () => {
+
   return (
     <div>
-      <p>New York Time {now.toString()}</p>
-      <p>Hello {props.name}, you are {props.age} years old</p>
+      <p>'Fundamentals of React 10'</p>
+
     </div>
   )
 }
+const Part2 = () => {
 
-const Footer = () => {
   return (
     <div>
-      greeting app created by <a href="https://github.com/enjoyspizza">pizzapower</a>
+      <p>'Using props to pass data 7'</p>
+
+    </div>
+  )
+}
+const Part3 = () => {
+
+  return (
+    <div>
+      <p>'State of a component 14'</p>
+
     </div>
   )
 }
 const App = () => {
-  const name = "Danny"
-  const age = 10
+  const course = 'Half Stack application development'
+
+
   return (
-    <>
-      <h1>Greetings</h1>
-      <Hello name={name} age={age}/>
-      <Hello name="Bob" age={20+ 12}/>
-      <Footer />
-    </>
+    <div>
+      <h1>{course}</h1>
+
+      <Part1 />
+      <Part2 />
+      <Part3 />
+      <p>Number of exercises {10 + 7 + 14}</p>
+    </div>
   )
 }
 
+export default App
+// const Hello = (props) => {
+//   const now = new Date()
+//   return (
+//     <div>
+//       <p>New York Time {now.toString()}</p>
+//       <p>Hello {props.name}, you are {props.age} years old</p>
+//     </div>
+//   )
+// }
 
-export default App;
+// const Footer = () => {
+//   return (
+//     <div>
+//       greeting app created by <a href="https://github.com/enjoyspizza">pizzapower</a>
+//     </div>
+//   )
+// }
+// const App = () => {
+//   const name = "Danny"
+//   const age = 10
+//   return (
+//     <>
+//       <h1>Greetings</h1>
+//       <Hello name={name} age={age}/>
+//       <Hello name="Bob" age={20+ 12}/>
+//       <Footer />
+//     </>
+//   )
+// }
+
+
+// export default App;
 // const App = () => {
 //   const now = new Date()
 //   const a = 10
