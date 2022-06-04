@@ -1,26 +1,26 @@
 const Part1 = () => {
-
+let time = 10
   return (
     <div>
-      <p>'Fundamentals of React 10'</p>
+      <p>'Fundamentals of React {time}'</p>
 
     </div>
   )
 }
 const Part2 = () => {
-
+let time = 7
   return (
     <div>
-      <p>'Using props to pass data 7'</p>
+      <p>'Using props to pass data {time}'</p>
 
     </div>
   )
 }
 const Part3 = () => {
-
+let time = 14
   return (
     <div>
-      <p>'State of a component 14'</p>
+      <p>'State of a component {time}'</p>
 
     </div>
   )
